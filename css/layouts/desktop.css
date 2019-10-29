@@ -1,10 +1,7 @@
-header, aside, #section-c, #section-d, #section-efgh span, #section-i {
-  background: rgb(235, 104, 89);
-}
-
 header {
   width: 960px;
   height: 100px;
+  background-color: #2859af;
 }
 
 header span {
@@ -21,6 +18,7 @@ aside {
   height: 600px;
   float: left;
   line-height: 600px;
+  background-color: rgb(143, 31, 143);
 }
 
 #section-c,
@@ -31,8 +29,13 @@ aside {
   display: inline-block;
 }
 
+#section-c {
+  background-color: rgb(243, 112, 24);
+}
+
 #section-d {
   float: left;
+  background-color: rgb(247, 23, 23);
 }
 
 #section-efgh {
@@ -45,6 +48,7 @@ aside {
   height: 250px;
   float: left;
   line-height: 250px;
+  background-color: #8EA604;
 }
 
 #section-i {
@@ -52,4 +56,5 @@ aside {
   height: 150px;
   line-height: 150px;
   float: right;
+  background-color: #F5BB00;
 }

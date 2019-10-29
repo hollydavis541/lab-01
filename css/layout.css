@@ -1,0 +1,11 @@
+@import url("./layouts/mobile.css") (min-width: 480px) and (max-width: 767px);
+@import url("./layouts/desktop.css") (min-width: 768px);
+
+header, aside, #section-c, #section-d, #section-efgh span, #section-i {
+  background: lightseagreen;
+  margin: auto;
+  text-align: center;
+  box-sizing: border-box;
+  border: 0.5px solid black;
+  border-bottom: 0;
+}

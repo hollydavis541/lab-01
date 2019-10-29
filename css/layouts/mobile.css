@@ -1,0 +1,58 @@
+header {
+  width: 480px;
+  height: 75px;
+  background-color: #8EA604;
+}
+
+header span {
+  line-height: 75px;
+}
+
+aside {
+  width: 480px;
+  height: 150px;
+  background-color: #F5BB00;
+}
+
+aside span {
+  line-height: 150px;
+}
+
+#section-c, #section-d {
+  width: 480px;
+  height: 125px;
+  line-height: 125px;
+}
+
+#section-c {
+  background-color: rgb(243, 112, 24);
+}
+
+#section-d {
+  background-color: rgb(247, 23, 23);
+}
+
+#section-efgh {
+  width: 480px;
+  margin: auto;
+}
+
+#section-efgh span {
+  width: 240px;
+  height: 250px;
+  float: left;
+  line-height: 250px;
+  background-color: rgb(143, 31, 143);
+}
+
+#mobile-clear {
+  clear: both;
+}
+
+#section-i {
+  clear: both;
+  width: 480px;
+  height: 80px;
+  line-height: 80px;
+  background-color: #2859af;
+}

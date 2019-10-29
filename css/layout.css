@@ -2,10 +2,8 @@
 @import url("./layouts/desktop.css") (min-width: 768px);
 
 header, aside, #section-c, #section-d, #section-efgh span, #section-i {
-  background: lightseagreen;
   margin: auto;
   text-align: center;
   box-sizing: border-box;
   border: 0.5px solid black;
-  border-bottom: 0;
 }

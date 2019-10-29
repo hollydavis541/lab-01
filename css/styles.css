@@ -10,49 +10,54 @@ header, aside, #section-c, #section-d, #section-efgh span, footer {
   border-bottom: 0;
 }
 
-header {
-  width: 480px;
-  height: 75px;
-}
 
-header span {
-  line-height: 75px;
-}
+@media screen and (min-width: 480px) and (max-width: 767px) {
 
-aside {
-  width: 480px;
-  height: 150px;
-}
+  header {
+    width: 480px;
+    height: 75px;
+  }
 
-aside span {
-  line-height: 150px;
-}
+  header span {
+    line-height: 75px;
+  }
 
-#section-c, #section-d {
-  width: 480px;
-  height: 125px;
-  line-height: 125px;
-}
+  aside {
+    width: 480px;
+    height: 150px;
+  }
 
-#section-efgh {
-  width: 480px;
-  margin: auto;
-}
+  aside span {
+    line-height: 150px;
+  }
 
-#section-efgh span {
-  width: 240px;
-  height: 250px;
-  float: left;
-  line-height: 250px;
-}
+  #section-c, #section-d {
+    width: 480px;
+    height: 125px;
+    line-height: 125px;
+  }
 
-#mobile-clear {
-  clear: both;
-}
+  #section-efgh {
+    width: 480px;
+    margin: auto;
+  }
 
-footer {
-  clear: both;
-  width: 480px;
-  height: 80px;
-  line-height: 80px;
+  #section-efgh span {
+    width: 240px;
+    height: 250px;
+    float: left;
+    line-height: 250px;
+  }
+
+  #mobile-clear {
+    clear: both;
+  }
+
+  footer {
+    clear: both;
+    width: 480px;
+    height: 80px;
+    line-height: 80px;
+  }
+  
 }

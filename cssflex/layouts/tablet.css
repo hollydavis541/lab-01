@@ -1,0 +1,24 @@
+header {
+  background-color: rgb(143, 31, 143);
+}
+
+aside {
+  background-color:#8EA604;
+}
+
+#section-c {
+  background-color: #2859af;
+}
+
+#section-d {
+  background-color: rgb(243, 112, 24);
+}
+
+#section-efgh span {
+  width: 25%;
+  background-color: #F5BB00;
+}
+
+#section-i {
+  background-color: rgb(247, 23, 23);
+}
